@@ -1,0 +1,20 @@
+SEPM
+magnitudes value : 2 5 10 20 50 100 1000 10000 
+11 perturbation point
+N Excecution Enactor
+PMAG : Numerical Perturbator
+20 string of 100 char
+Random char generated with 23 as seed
+aggregate data per location for magnitude = 20
+IndexLoc   #Success   #Failure   #Exception #Call      #Enaction  %Success                   
+303        40         0          0          40         40         -------------------- 100,00
+306        5140       0          0          1321000    5140       -------------------- 100,00
+310        1955       0          25         193762     1980       -------------------- 98,74 
+313        0          0          0          0          0           NaN                       
+314        0          0          0          0          0           NaN                       
+316        0          0          0          0          0           NaN                       
+318        20         0          0          20         20         -------------------- 100,00
+321        5140       0          0          1321000    5140       -------------------- 100,00
+305        4776       0          364        1316780    5140       ------------------- 92,92  
+320        4776       0          364        1316780    5140       ------------------- 92,92  
+303        40         0          0          40         40         -------------------- 100,00

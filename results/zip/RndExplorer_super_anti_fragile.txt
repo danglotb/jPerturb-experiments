@@ -1,0 +1,2 @@
+List of ids antifragile points.
+303 306 310 313 314 316 318 321 303 
