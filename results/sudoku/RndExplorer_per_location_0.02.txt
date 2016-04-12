@@ -1,6 +1,6 @@
 SERN
 random Rates : 0.001 0.002 0.005 0.009 0.01 0.02 0.05 0.09 0.1 0.2 0.5 0.9 
-15 perturbation point
+10 perturbation point
 Random Enactor, seed :32
 PONE : Numerical Perturbator
 1 sudoku grid 
@@ -17,8 +17,3 @@ IndexLoc   #Success   #Failure   #Exception #Call      #Enaction  %Success
 188        0          0          1          695        14          0,00                      
 189        0          0          1          289        5           0,00                      
 191        1          0          0          2084       43         -------------------- 100,00
-192        0          0          1          695        14          0,00                      
-195        1          0          0          789        18         -------------------- 100,00
-196        1          0          0          672        11         -------------------- 100,00
-197        1          0          0          762        15         -------------------- 100,00
-198        0          0          1          47         1           0,00                      

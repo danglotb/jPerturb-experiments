@@ -1,6 +1,6 @@
 SERN
 random Rates : 0.001 0.002 0.005 0.009 0.01 0.02 0.05 0.09 0.1 0.2 0.5 0.9 
-15 perturbation point
+10 perturbation point
 Random Enactor, seed :32
 PONE : Numerical Perturbator
 20 string of 100 char
@@ -17,8 +17,3 @@ IndexLoc   #Success   #Failure   #Exception #Call      #Enaction  %Success
 21         18         0          2          180        20         ------------------ 90,00   
 29         16         4          0          160        19         ---------------- 80,00     
 36         19         1          0          79         11         ------------------- 95,00  
-37         15         0          5          80         11         --------------- 75,00      
-43         15         5          0          3895       366        --------------- 75,00      
-44         13         0          7          3315       307        ------------- 65,00        
-46         0          13         7          3136       291         0,00                      
-49         18         0          2          3754       352        ------------------ 90,00   

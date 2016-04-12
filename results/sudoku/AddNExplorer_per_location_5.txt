@@ -1,6 +1,6 @@
 SEPM
 magnitudes value : 2 5 10 20 50 
-15 perturbation point
+10 perturbation point
 N Excecution Enactor
 PMAG : Numerical Perturbator
 1 sudoku grid 
@@ -17,8 +17,3 @@ IndexLoc   #Success   #Failure   #Exception #Call      #Enaction  %Success
 188        755        14         3131       9114482    3900       ---- 19,36                 
 189        1774       18         2108       11220939   3900       ---------- 45,49           
 191        1446       11         281        2964542    1738       ----------------- 83,20    
-192        810        14         914        2271100    1738       ---------- 46,61           
-195        186        14         472        308250     672        ------ 27,68               
-196        613        27         32         483872     672        ------------------- 91,22  
-197        348        15         309        380433     672        ----------- 51,79          
-198        336        17         319        369011     672        ---------- 50,00           

@@ -1,0 +1,2 @@
+List of ids antifragile points.
+312 318 321 332 334 338 

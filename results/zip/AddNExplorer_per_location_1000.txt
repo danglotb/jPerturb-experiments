@@ -1,5 +1,5 @@
 SEPM
-magnitudes value : 2 5 10 20 50 100 1000 10000 
+magnitudes value : 2 5 10 20 50 100 500 1000 
 11 perturbation point
 N Excecution Enactor
 PMAG : Numerical Perturbator

@@ -1,6 +1,6 @@
 SEPM
 magnitudes value : 2 5 10 20 50 
-15 perturbation point
+10 perturbation point
 N Excecution Enactor
 PMAG : Numerical Perturbator
 20 string of 100 char
@@ -17,8 +17,3 @@ IndexLoc   #Success   #Failure   #Exception #Call      #Enaction  %Success
 21         160        0          20         1620       180        ------------------ 88,89   
 29         140        20         0          1280       160        ------------------ 87,50   
 36         40         40         0          260        80         ---------- 50,00           
-37         60         0          20         320        80         --------------- 75,00      
-43         3780       120        0          760320     3900       -------------------- 96,92 
-44         3840       0          60         756600     3900       -------------------- 98,46 
-46         1922       1798       120        729540     3840       ----------- 50,05          
-49         3800       0          40         735560     3840       -------------------- 98,96 
