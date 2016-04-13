@@ -1,0 +1,19 @@
+aggregate data per location for magnitude = 0.002
+SERN
+11 perturbation point
+Random Enactor, seed :32
+PONE : Numerical Perturbator
+20 arrays of 100 integers
+Random integer generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #Call      #Enaction  %Success                   
+175        19         0          1          1969       3          ------------------- 95,00  
+176        20         0          0          2003       3          -------------------- 100,00
+177        20         0          0          14845      23         -------------------- 100,00
+178        10         10         0          14747      23         ---------- 50,00           
+179        20         0          0          14845      23         -------------------- 100,00
+181        14         6          0          6696       8          -------------- 70,00       
+182        20         0          0          8138       12         -------------------- 100,00
+183        20         0          0          8143       12         -------------------- 100,00
+184        14         6          0          8102       12         -------------- 70,00       
+186        14         6          0          6138       7          -------------- 70,00       
+187        17         3          0          2000       3          ----------------- 85,00    

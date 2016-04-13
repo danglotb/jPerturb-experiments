@@ -1,0 +1,2 @@
+List of ids antifragile points.
+304 305 309 319 320 327 

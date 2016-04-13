@@ -1,0 +1,2 @@
+List of ids antifragile points.
+205 206 209 214 215 222 223 224 227 232 252 255 270 274 
