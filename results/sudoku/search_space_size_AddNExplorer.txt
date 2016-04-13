@@ -1,2 +1,0 @@
-for 1 tasks with 10 perturbations points = 47765 tasks done.
-% Success : ----- 23,53 
