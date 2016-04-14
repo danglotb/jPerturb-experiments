@@ -1,7 +1,7 @@
 aggregate data per location for magnitude = 10
 SEPM
 164 perturbation point
-N Excecution Enactor
+N Execution Enactor
 PMAG : Numerical Perturbator
 20 string of 100 char
 Random char generated with 23 as seed

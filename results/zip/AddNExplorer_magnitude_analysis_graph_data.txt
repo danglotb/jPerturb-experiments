@@ -1,8 +1,8 @@
 contains the data for the magnitude analysis graph.
 SEPM
-magnitudes value : 2 5 10 20 50 
+magnitude value : 2 5 10 20 50 
 19 perturbation point
-N Excecution Enactor
+N Execution Enactor
 PMAG : Numerical Perturbator
 20 string of 100 char
 Random char generated with 23 as seed

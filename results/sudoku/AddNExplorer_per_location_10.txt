@@ -1,7 +1,7 @@
 aggregate data per location for magnitude = 10
 SEPM
 89 perturbation point
-N Excecution Enactor
+N Execution Enactor
 PMAG : Numerical Perturbator
 1 sudoku grid 
 Those grid are read from file in resources/sudoku/grid.txt
