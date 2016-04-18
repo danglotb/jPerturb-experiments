@@ -1,2 +1,2 @@
 list ids of exception fragile code : >70.0% of exceptions.
-230 257 259 278 279 
+230 247 257 258 259 268 270 278 279 
