@@ -1,0 +1,2 @@
+list ids of exception fragile code : >70.0% of exceptions.
+216 217 248 249 252 254 263 265 275 276 
