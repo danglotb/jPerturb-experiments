@@ -6,6 +6,6 @@ INV : Boolean Perturbator5 repetition for each location for each task
 20 arrays of 100 integers
 Random integer generated with 23 as seed
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
-0          18         15         67         12228              122.28             130            1.30                     100        20         ---- 18.00                 
-6          0          100        0          72401              724.01             735            7.35                     100        20          0.00                      
-11         5          95         0          40130              401.30             416            4.16                     100        20         - 5.00                     
+0          18         15         67         12228              122,28             130            1,30                     100        20         ---- 18,00                 
+6          0          100        0          72401              724,01             735            7,35                     100        20          0,00                      
+11         5          95         0          40130              401,30             416            4,16                     100        20         - 5,00                     
