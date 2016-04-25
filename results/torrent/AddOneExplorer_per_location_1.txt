@@ -1,8 +1,15 @@
 Aggregate data for all tasks per location for magnitude = 1
 SEP1
-0 perturbation point
+7 perturbation point
 N Excecution Enactor
 PONE : Numerical Perturbator
 1 files of 100 chararacters
 Random characters generated with 23 as seed
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #ExecsRef  #Tasks     %Success                   
+1812       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
+1851       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
+1871       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
+1846       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
+1858       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
+1854       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
+1868       0          0          0          0                  NaN                0              NaN                      0          0          1          NaN                        
