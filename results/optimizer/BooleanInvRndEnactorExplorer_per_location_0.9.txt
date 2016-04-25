@@ -1,0 +1,21 @@
+aggregate data per location for magnitude = 0.9
+SERN
+13 perturbation point
+Random Enactor, seed :32
+INV : Boolean Perturbator5 repetition for each location for each task
+1 linear problems to be resolved
+linear problem come from test of commons.math lib
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+9          5          0          0          138                27.60              126            25.20                    5          1          -------------------- 100.00
+10         5          0          0          0                  0.00               0              0.00                     5          1          NaN                        
+20         0          0          5          43770004           8754000.80         39384514       7876902.80               5          1           0.00                      
+24         5          0          0          138                27.60              126            25.20                    5          1          -------------------- 100.00
+48         0          5          0          443                88.60              397            79.40                    5          1           0.00                      
+52         0          0          5          5                  1.00               5              1.00                     5          1           0.00                      
+57         0          0          5          5                  1.00               5              1.00                     5          1           0.00                      
+60         5          0          0          239                47.80              215            43.00                    5          1          -------------------- 100.00
+72         5          0          0          20                 4.00               20             4.00                     5          1          -------------------- 100.00
+79         0          0          5          15                 3.00               15             3.00                     5          1           0.00                      
+87         5          0          0          5                  1.00               5              1.00                     5          1          -------------------- 100.00
+91         5          0          0          5                  1.00               5              1.00                     5          1          -------------------- 100.00
+100        0          0          5          5                  1.00               5              1.00                     5          1           0.00                      

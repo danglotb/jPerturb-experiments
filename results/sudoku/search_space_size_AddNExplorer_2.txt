@@ -3,4 +3,4 @@ number of Task :               1
 number of Locations :          89                            
 number of Task done :          13663                         
 number of successful task :    8275                          
-% Success :                    ------------- 60,57           
+% Success :                    ------------- 60.57           
