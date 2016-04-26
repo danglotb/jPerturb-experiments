@@ -1,5 +1,5 @@
 number of Task :               1                             
 number of Locations :          94                            
-number of Task done :          569                           
-number of successful task :    992                           
-% Success :                    ----------------------------------- 174,34
+number of Task done :          27325                         
+number of successful task :    26430                         
+% Success :                    -------------------- 96.72    

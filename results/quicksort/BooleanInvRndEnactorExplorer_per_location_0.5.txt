@@ -1,0 +1,11 @@
+aggregate data per location for magnitude = 0.5
+SERN
+3 perturbation point
+Random Enactor, seed :32
+INV : Boolean Perturbator5 repetition for each location for each task
+20 arrays of 100 integers
+Random integer generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+0          0          79         21         392                3,92               199            1,99                     100        20          0,00                      
+6          0          100        0          32494              324,94             16313          163,13                   100        20          0,00                      
+11         0          100        0          19818              198,18             9925           99,25                    100        20          0,00                      

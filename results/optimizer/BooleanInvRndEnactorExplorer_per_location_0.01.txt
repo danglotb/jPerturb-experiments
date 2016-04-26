@@ -1,0 +1,21 @@
+aggregate data per location for magnitude = 0.01
+SERN
+13 perturbation point
+Random Enactor, seed :32
+INV : Boolean Perturbator5 repetition for each location for each task
+1 linear problems to be resolved
+linear problem come from test of commons.math lib
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+9          5          0          0          25                 5,00               0              0,00                     5          1          NaN                        
+10         5          0          0          0                  0,00               0              0,00                     5          1          NaN                        
+20         4          0          1          75                 15,00              1              0,20                     5          1          ---------------- 80,00     
+24         5          0          0          25                 5,00               0              0,00                     5          1          NaN                        
+48         5          0          0          40                 8,00               0              0,00                     5          1          NaN                        
+52         5          0          0          40                 8,00               0              0,00                     5          1          NaN                        
+57         5          0          0          25                 5,00               0              0,00                     5          1          NaN                        
+60         5          0          0          25                 5,00               0              0,00                     5          1          NaN                        
+72         5          0          0          0                  0,00               0              0,00                     5          1          NaN                        
+79         5          0          0          0                  0,00               0              0,00                     5          1          NaN                        
+87         5          0          0          5                  1,00               0              0,00                     5          1          NaN                        
+91         5          0          0          20                 4,00               0              0,00                     5          1          NaN                        
+100        5          0          0          25                 5,00               0              0,00                     5          1          NaN                        
