@@ -1,8 +1,9 @@
-aggregate data per location for magnitude = 0.1
+aggregate data per location for random rate = 0.1
 SERN
 3 perturbation point
 Random Enactor, seed :32
-INV : Boolean Perturbator5 repetition for each location for each task
+INV : Boolean Perturbator
+5 repetition for each location for each task
 20 arrays of 100 integers
 Random integer generated with 23 as seed
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   

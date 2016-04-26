@@ -1,0 +1,11 @@
+Aggregate data for all tasks per location
+SEInvB
+3 perturbation point
+N Excecution Enactor
+INV : Boolean Perturbator
+20 arrays of 100 integers
+Random integer generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   #Tasks     %Success                   
+0          891        1109       2020       585048             145,53             4020           1,00                     4020       4020       20         ----- 22,16                
+6          2000       12834      0          11005947           741,94             14834          1,00                     14834      14834      20         --- 13,48                  
+11         2989       5149       0          3356353            412,43             8138           1,00                     8138       8138       20         -------- 36,73             
