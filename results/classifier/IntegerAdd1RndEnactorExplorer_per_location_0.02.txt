@@ -1,0 +1,14 @@
+aggregate data per location for random rate = 0.02
+SERN
+5 perturbation point
+Random Enactor, seed :32
+PONE : Numerical Perturbator
+5 repetition for each location for each task
+1 datasets
+Picked up in the data set provided by Weka.
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+0          5          0          0          0                  0,00               0              0,00                     5          1          NaN                        
+4          5          0          0          0                  0,00               0              0,00                     5          1          NaN                        
+5          5          0          0          0                  0,00               0              0,00                     5          1          NaN                        
+6          5          0          0          500                100,00             10             2,00                     5          1          -------------------- 100,00
+7          5          0          0          500                100,00             10             2,00                     5          1          -------------------- 100,00
