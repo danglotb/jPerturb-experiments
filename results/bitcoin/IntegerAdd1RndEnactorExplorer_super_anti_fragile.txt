@@ -1,0 +1,2 @@
+List of ids antifragile points.
+1588 1589 1601 1602 
