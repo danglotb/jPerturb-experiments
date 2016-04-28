@@ -1,0 +1,13 @@
+All Result : detail per task
+SEP1
+73 perturbation point
+N Excecution Enactor
+PONE : Numerical Perturbator
+1 files of 100 chararacters
+Random characters generated with 23 as seed
+Task       IndexLoc   #Success   #Failure   #Exception TotalCall  AvgCall    #Call_Ref  #Perturbations %Success                   
+0          1786       0          8          0          64         8          8          8               0.00                      
+0          1787       0          7          1          62         7          8          8               0.00                      
+0          1824       0          2          0          4          2          2          2               0.00                      
+0          1825       0          2          0          4          2          2          2               0.00                      
+0          1881       0          14         0          193        13         14         14              0.00                      
