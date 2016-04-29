@@ -1,0 +1,17 @@
+Contains data to explore the number of task required for saturation
+Task Number Exploration (TNE)
+Number Task :1 2 5 10 25 50 100 200 
+164 perturbation point
+N Execution Enactor
+PONE : Numerical Perturbator
+Each task is an arrays of 100
+Seed used for generate task is 23
+#Tasks     IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
+1          20         9          0          0          80                 8,89               9              1,00                     9          9          -------------------- 100,00
+2          20         18         0          0          160                8,89               18             1,00                     18         18         -------------------- 100,00
+5          20         45         0          0          400                8,89               45             1,00                     45         45         -------------------- 100,00
+10         20         90         0          0          800                8,89               90             1,00                     90         90         -------------------- 100,00
+25         20         225        0          0          2000               8,89               225            1,00                     225        225        -------------------- 100,00
+50         20         450        0          0          4000               8,89               450            1,00                     450        450        -------------------- 100,00
+100        20         900        0          0          8000               8,89               900            1,00                     900        900        -------------------- 100,00
+200        20         1800       0          0          16000              8,89               1800           1,00                     1800       1800       -------------------- 100,00
