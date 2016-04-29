@@ -1,0 +1,8 @@
+Aggregate data for all tasks per location for magnitude = 1
+Systematical Exploration Plus One
+0 perturbation point
+N Excecution Enactor
+PONE : Numerical Perturbator
+20 string of 100 characters
+Generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   #Tasks     %Success                   

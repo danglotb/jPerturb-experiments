@@ -1,0 +1,8 @@
+All Result : detail per task
+Systematical Exploration Plus One
+0 perturbation point
+N Excecution Enactor
+PONE : Numerical Perturbator
+20 string of 100 characters
+Generated with 23 as seed
+Task       IndexLoc   #Success   #Failure   #Exception TotalCall  AvgCall    #CallRef   #Perturbations %Success                   
