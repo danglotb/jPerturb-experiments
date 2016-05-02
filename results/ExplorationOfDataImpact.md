@@ -1,2 +1,1 @@
-[![qs-task](jPerturb-experiments/results/quicksort/img/taskexplorer_plot.pdf)]( jPerturb-experiments/results/quicksort/img/taskexplorer_plot.pdf )
-[![qs-size](jPerturb-experiments/results/quicksort/img/sizeexplorer_plot.pdf)]( jPerturb-experiments/results/quicksort/img/sizeexplorer_plot.pdf )
+![qs-task](https://codepo8.github.io/canvas-images-and-pixels/img/horse.png)(https://codepo8.github.io/canvas-images-and-pixels/img/horse.png)
