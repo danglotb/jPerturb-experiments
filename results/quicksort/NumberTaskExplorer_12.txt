@@ -1,17 +1,12 @@
 Contains data to explore the number of task required for saturation
 Task Number Exploration (TNE)
-Number Task :1 2 5 10 25 50 100 200 
+Number Task :1 2 5 
 11 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
-Each task is an arrays of 100
+Each task is an arrays of 1
 Seed used for generate task is 23
 #Tasks     IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-1          12         0          301        0          90601              301,00             301            1,00                     301        301         0,00                      
-2          12         0          586        0          171826             293,22             586            1,00                     586        586         0,00                      
-5          12         0          1443       0          417123             289,07             1443           1,00                     1443       1443        0,00                      
-10         12         0          3119       0          998841             320,24             3119           1,00                     3119       3119        0,00                      
-25         12         0          7692       0          2430488            315,98             7692           1,00                     7692       7692        0,00                      
-50         12         0          15764      0          5094618            323,18             15764          1,00                     15764      15764       0,00                      
-100        12         0          31934      0          10494390           328,63             31934          1,00                     31934      31934       0,00                      
-200        12         0          64529      0          21367511           331,13             64529          1,00                     64529      64529       0,00                      
+20         12         0          0          0          0                  NaN                0              NaN                      0          0          NaN                        
+20         12         0          10         0          10                 1,00               10             1,00                     10         10          0,00                      
+20         12         0          81         0          415                5,12               81             1,00                     81         81          0,00                      

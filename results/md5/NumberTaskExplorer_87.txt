@@ -7,11 +7,3 @@ PONE : Numerical Perturbator
 Each task is an arrays of 100
 Seed used for generate task is 23
 #Tasks     IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-1          87         7          41         0          2304               48,00              48             1,00                     48         48         --- 14,58                  
-2          87         16         80         0          4608               48,00              96             1,00                     96         96         ---- 16,67                 
-5          87         55         185        0          11520              48,00              240            1,00                     240        240        ----- 22,92                
-10         87         121        359        0          23040              48,00              480            1,00                     480        480        ------ 25,21               
-25         87         299        901        0          57600              48,00              1200           1,00                     1200       1200       ----- 24,92                
-50         87         609        1791       0          115200             48,00              2400           1,00                     2400       2400       ------ 25,37               
-100        87         1144       3656       0          230400             48,00              4800           1,00                     4800       4800       ----- 23,83                
-200        87         2353       7247       0          460800             48,00              9600           1,00                     9600       9600       ----- 24,51                
