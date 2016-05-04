@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 164 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          28         20         140        0          1280               8,00               140            0,88                     160        160        --- 12,50                  
-10         28         20         140        0          1280               8,00               140            0,88                     160        160        --- 12,50                  
-20         28         20         140        0          1280               8,00               140            0,88                     160        160        --- 12,50                  
-50         28         20         140        0          1280               8,00               140            0,88                     160        160        --- 12,50                  
-100        28         20         140        0          1280               8,00               140            0,88                     160        160        --- 12,50                  
+5          28         0          160        0          1280               8,00               160            1,00                     0          160         0,00                      
+10         28         0          160        0          1280               8,00               160            1,00                     0          160         0,00                      
+20         28         0          160        0          1280               8,00               160            1,00                     0          160         0,00                      
+50         28         0          160        0          1280               8,00               160            1,00                     0          160         0,00                      
+100        28         0          160        0          1280               8,00               160            1,00                     0          160         0,00                      
+250        28         0          160        0          1280               8,00               160            1,00                     0          160         0,00                      

@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 164 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          104        202        118        0          5120               16,00              300            0,94                     320        320        ------------- 63,13        
-10         104        153        167        0          5120               16,00              300            0,94                     320        320        ---------- 47,81           
-20         104        99         221        0          5120               16,00              300            0,94                     320        320        ------- 30,94              
-50         104        198        442        0          20480              32,00              620            0,97                     640        640        ------- 30,94              
-100        104        141        819        0          46080              48,00              940            0,98                     960        960        --- 14,69                  
+5          104        202        118        0          5120               16,00              320            1,00                     0          320        ------------- 63,13        
+10         104        153        167        0          5120               16,00              320            1,00                     0          320        ---------- 47,81           
+20         104        79         241        0          5120               16,00              320            1,00                     0          320        ----- 24,69                
+50         104        178        462        0          20480              32,00              640            1,00                     0          640        ------ 27,81               
+100        104        121        839        0          46080              48,00              960            1,00                     0          960        --- 12,60                  
+250        104        120        1944       0          214272             103,81             2064           1,00                     0          2064       -- 5,81                    

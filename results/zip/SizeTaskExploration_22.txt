@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 19 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          22         20         60         0          320                4,00               60             0,75                     80         80         ----- 25,00                
-10         22         20         160        0          1620               9,00               160            0,89                     180        180        --- 11,11                  
-20         22         20         360        0          7220               19,00              360            0,95                     380        380        -- 5,26                    
-50         22         20         960        0          48020              49,00              960            0,98                     980        980        - 2,04                     
-100        22         20         1960       0          196020             99,00              1960           0,99                     1980       1980       - 1,01                     
+5          22         0          80         0          320                4,00               80             1,00                     0          80          0,00                      
+10         22         0          180        0          1620               9,00               180            1,00                     0          180         0,00                      
+20         22         0          380        0          7220               19,00              380            1,00                     0          380         0,00                      
+50         22         0          980        0          48020              49,00              980            1,00                     0          980         0,00                      
+100        22         0          1980       0          196020             99,00              1980           1,00                     0          1980        0,00                      
+250        22         0          4975       0          1237537            248,75             4975           1,00                     0          4975        0,00                      

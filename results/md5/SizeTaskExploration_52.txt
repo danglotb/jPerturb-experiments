@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 164 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          52         20         108        20         1116               7,54               128            0,86                     148        148        --- 13,51                  
-10         52         20         258        20         4486               15,05              278            0,93                     298        298        -- 6,71                    
-20         52         21         547        20         17350              29,51              568            0,97                     588        588        - 3,57                     
-50         52         23         1455       20         112466             75,08              1478           0,99                     1498       1498       - 1,54                     
-100        52         26         2944       20         447416             149,64             2970           0,99                     2990       2990       - 0,87                     
+5          52         0          128        20         1116               7,54               148            1,00                     0          148         0,00                      
+10         52         0          278        20         4486               15,05              298            1,00                     0          298         0,00                      
+20         52         1          567        20         17350              29,51              588            1,00                     0          588        - 0,17                     
+50         52         4          1474       20         112466             75,08              1498           1,00                     0          1498       - 0,27                     
+100        52         6          2964       20         447416             149,64             2990           1,00                     0          2990       - 0,20                     
+250        52         9          7467       20         2810770            374,97             7496           1,00                     0          7496       - 0,12                     

@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 164 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          161        20         20         0          80                 2,00               20             0,50                     40         40         ---------- 50,00           
-10         161        20         20         0          80                 2,00               20             0,50                     40         40         ---------- 50,00           
-20         161        20         20         0          80                 2,00               20             0,50                     40         40         ---------- 50,00           
-50         161        20         20         0          80                 2,00               20             0,50                     40         40         ---------- 50,00           
-100        161        20         20         0          80                 2,00               20             0,50                     40         40         ---------- 50,00           
+5          161        0          40         0          80                 2,00               40             1,00                     0          40          0,00                      
+10         161        0          40         0          80                 2,00               40             1,00                     0          40          0,00                      
+20         161        0          40         0          80                 2,00               40             1,00                     0          40          0,00                      
+50         161        0          40         0          80                 2,00               40             1,00                     0          40          0,00                      
+100        161        0          40         0          80                 2,00               40             1,00                     0          40          0,00                      
+250        161        0          40         0          80                 2,00               40             1,00                     0          40          0,00                      

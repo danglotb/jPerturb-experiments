@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 164 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          166        20         40         0          180                3,00               40             0,67                     60         60         ------- 33,33              
-10         166        20         40         0          180                3,00               40             0,67                     60         60         ------- 33,33              
-20         166        20         40         0          180                3,00               40             0,67                     60         60         ------- 33,33              
-50         166        20         40         0          180                3,00               40             0,67                     60         60         ------- 33,33              
-100        166        20         40         0          180                3,00               40             0,67                     60         60         ------- 33,33              
+5          166        0          60         0          180                3,00               60             1,00                     0          60          0,00                      
+10         166        0          60         0          180                3,00               60             1,00                     0          60          0,00                      
+20         166        0          60         0          180                3,00               60             1,00                     0          60          0,00                      
+50         166        0          60         0          180                3,00               60             1,00                     0          60          0,00                      
+100        166        0          60         0          180                3,00               60             1,00                     0          60          0,00                      
+250        166        0          60         0          180                3,00               60             1,00                     0          60          0,00                      

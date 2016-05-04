@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 164 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          42         20         0          0          20                 1,00               0              0,00                     20         20         NaN                        
-10         42         20         0          0          20                 1,00               0              0,00                     20         20         NaN                        
-20         42         20         0          0          20                 1,00               0              0,00                     20         20         NaN                        
-50         42         20         20         0          80                 2,00               20             0,50                     40         40         ---------- 50,00           
-100        42         20         40         0          180                3,00               40             0,67                     60         60         ------- 33,33              
+5          42         0          20         0          20                 1,00               20             1,00                     0          20          0,00                      
+10         42         0          20         0          20                 1,00               20             1,00                     0          20          0,00                      
+20         42         0          20         0          20                 1,00               20             1,00                     0          20          0,00                      
+50         42         0          40         0          80                 2,00               40             1,00                     0          40          0,00                      
+100        42         0          60         0          180                3,00               60             1,00                     0          60          0,00                      
+250        42         0          129        0          837                6,49               129            1,00                     0          129         0,00                      

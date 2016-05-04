@@ -1,0 +1,8 @@
+![qs](quicksort/img/heatmap_1.jpeg)
+![qs](quicksort/img/heatmap_1_log.jpeg)
+![qs](quicksort/img/heatmap_4.jpeg)
+![qs](quicksort/img/heatmap_4_log.jpeg)
+![qs](quicksort/img/heatmap_5.jpeg)
+![qs](quicksort/img/heatmap_5_log.jpeg)
+![qs](quicksort/img/heatmap_13.jpeg)
+![qs](quicksort/img/heatmap_13_log.jpeg)

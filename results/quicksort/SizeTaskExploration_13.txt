@@ -1,14 +1,15 @@
 Contains data to explore the size of task required for saturation
-Size Task Exploration (STE)
-Size Task : 5 10 20 50 100 
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 250 
 11 perturbation point
 N Execution Enactor
 PONE : Numerical Perturbator
 One task of different size
 Seed used for generate task is 23
 Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
-5          13         20         80         0          500                5,00               80             0,80                     100        100        ---- 20,00                 
-10         13         20         180        0          2000               10,00              180            0,90                     200        200        -- 10,00                   
-20         13         20         380        0          8000               20,00              380            0,95                     400        400        - 5,00                     
-50         13         20         980        0          50000              50,00              980            0,98                     1000       1000       - 2,00                     
-100        13         20         1980       0          200000             100,00             1980           0,99                     2000       2000       - 1,00                     
+5          13         0          100        0          500                5,00               100            1,00                     0          100         0,00                      
+10         13         0          200        0          2000               10,00              200            1,00                     0          200         0,00                      
+20         13         0          400        0          8000               20,00              400            1,00                     0          400         0,00                      
+50         13         0          1000       0          50000              50,00              1000           1,00                     0          1000        0,00                      
+100        13         0          2000       0          200000             100,00             2000           1,00                     0          2000        0,00                      
+250        13         0          5000       0          1250000            250,00             5000           1,00                     0          5000        0,00                      
