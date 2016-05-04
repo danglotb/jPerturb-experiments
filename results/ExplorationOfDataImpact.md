@@ -1,8 +1,0 @@
-![qs-size](quicksort/img/sizeexplorer_plot.jpeg)
-![qs-task](quicksort/img/taskexplorer_plot.jpeg)
-![zip-size](zip/img/sizeexplorer_plot.jpeg)
-![zip-task](zip/img/taskexplorer_plot.jpeg)
-![mersenne-size](mersenne/img/sizeexplorer_plot.jpeg)
-![mersenne-task](mersenne/img/taskexplorer_plot.jpeg)
-![md5-size](md5/img/sizeexplorer_plot.jpeg)
-![md5-task](md5/img/taskexplorer_plot.jpeg)
