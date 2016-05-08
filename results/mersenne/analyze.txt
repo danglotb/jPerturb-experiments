@@ -1,0 +1,10 @@
+__L9 : ("MersenneTwister.java:125", 9, "Numerical");
+if (((PerturbationEngine.pint(__L9, mti)) >= N))
+
+?? this condition is used to generate N numbers in one time.
+
+
+__L41 : ("MersenneTwister.java:130", 41, "Numerical");
+    mt[kk] = mt[kk+M] ^ (y >> 1) ^ mag01[PerturbationEngine.pint(__L41, y) & 0x1];
+
+because of the mask 0x1, we can use a lot of different value, but the last bit of the value must be correct.
