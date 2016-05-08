@@ -1,0 +1,6 @@
+![zip](img/heatmap_2.jpeg)
+![zip](img/heatmap_2_log.jpeg)
+![zip](img/heatmap_6.jpeg)
+![zip](img/heatmap_6_log.jpeg)
+![zip](img/heatmap_17.jpeg)
+![zip](img/heatmap_17_log.jpeg)

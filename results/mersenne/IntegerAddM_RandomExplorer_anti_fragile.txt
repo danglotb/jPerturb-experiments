@@ -1,0 +1,2 @@
+List of ids antifragile points.
+9 101 102 107 120 
