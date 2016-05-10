@@ -1,6 +1,6 @@
 detail per task and per Perturbator.
 Exploration Boolean Negation
-89 perturbation point.
+26 perturbation point.
 NEGB : negation of boolean value.
 20 sudoku grid 
 Those grid are read from file in resources/sudoku/grid.txt
@@ -206,11 +206,11 @@ Task       Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #P
 7          NEGB       54         1          19         0          210        20             - 5,00                     
 7          NEGB       58         0          4          0          40         4               0,00                      
 7          NEGB       62         0          4          0          10         4               0,00                      
-7          NEGB       83         1          6          3          55         10             -- 10,00                   
+7          NEGB       83         1          8          1          55         10             -- 10,00                   
 7          NEGB       87         81         0          9          7335       90             ------------------ 90,00   
 7          NEGB       93         61         0          20         5778       81             ---------------- 75,31     
 7          NEGB       97         61         0          0          3721       61             -------------------- 100,00
-7          NEGB       102        284        0          0          38432      109            -------------------- 100,00
+7          NEGB       102        85         4          0          7953       89             -------------------- 95,51 
 7          NEGB       107        85         4          0          7939       89             -------------------- 95,51 
 7          NEGB       114        85         4          0          7897       89             -------------------- 95,51 
 8          NEGB       2          84         20         0          10635      104            ----------------- 80,77    
@@ -284,11 +284,11 @@ Task       Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #P
 10         NEGB       54         1          19         0          210        20             - 5,00                     
 10         NEGB       58         0          0          0          0          0              NaN                        
 10         NEGB       62         0          0          0          0          0              NaN                        
-10         NEGB       83         0          8          2          55         10              0,00                      
+10         NEGB       83         0          9          1          55         10              0,00                      
 10         NEGB       87         77         4          9          7335       90             ------------------ 85,56   
 10         NEGB       93         60         1          20         5764       81             --------------- 74,07      
 10         NEGB       97         60         1          0          3721       61             -------------------- 98,36 
-10         NEGB       102        170        0          0          24052      115            -------------------- 100,00
+10         NEGB       102        81         0          0          6565       81             -------------------- 100,00
 10         NEGB       107        81         0          0          6579       81             -------------------- 100,00
 10         NEGB       114        81         0          0          6563       81             -------------------- 100,00
 11         NEGB       2          79         20         0          9711       99             ---------------- 79,80     

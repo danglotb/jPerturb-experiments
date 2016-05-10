@@ -1,6 +1,6 @@
 detail of space for CallExplorer with Perturbator = NEGB
 number of Task :               20                            
 number of Locations :          26                            
-number of executions done :    28992                         
-number of successful executions done :  15354                         
-% Success :                    ----------- 52,96             
+number of executions done :    28708                         
+number of successful executions done :  15066                         
+% Success :                    ----------- 52,48             

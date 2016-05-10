@@ -1,6 +1,6 @@
 contains the data for build a graph for analysis.
 Exploration Boolean Negation
-89 perturbation point.
+26 perturbation point.
 NEGB : negation of boolean value.
 20 sudoku grid 
 Those grid are read from file in resources/sudoku/grid.txt
@@ -24,10 +24,10 @@ NEGB        53         7          403        0          8614       410          
 NEGB        54         26         374        0          4299       400            -- 6,50                    
 NEGB        58         0          10         0          134        10              0,00                      
 NEGB        62         0          10         0          18         10              0,00                      
-NEGB        83         19         158        23         1100       200            -- 9,50                    
+NEGB        83         19         161        20         1100       200            -- 9,50                    
 NEGB        87         1602       18         180        146700     1800           ------------------ 89,00   
 NEGB        93         1218       2          400        115397     1620           ---------------- 75,19     
 NEGB        97         1218       2          0          74420      1220           -------------------- 99,84 
-NEGB        102        1918       6          0          182812     1694           -------------------- 99,69 
+NEGB        102        1630       10         0          134846     1640           -------------------- 99,39 
 NEGB        107        1630       10         0          135036     1640           -------------------- 99,39 
 NEGB        114        1630       10         0          134630     1640           -------------------- 99,39 

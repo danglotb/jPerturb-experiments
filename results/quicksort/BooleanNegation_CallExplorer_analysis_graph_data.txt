@@ -1,6 +1,6 @@
 contains the data for build a graph for analysis.
 Exploration Boolean Negation
-11 perturbation point.
+3 perturbation point.
 NEGB : negation of boolean value.
 20 arrays of 100 integers
 Random integer generated with 23 as seed
