@@ -1,6 +1,0 @@
-detail of space for AddNExplore with magnitude = 2
-number of Task :               1                             
-number of Locations :          94                            
-number of Task done :          27325                         
-number of successful task :    26240                         
-% Success :                    -------------------- 96.03    
