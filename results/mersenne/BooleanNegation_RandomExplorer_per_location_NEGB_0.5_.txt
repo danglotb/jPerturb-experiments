@@ -1,6 +1,6 @@
 aggregate data per location for random rate = 0.5 and with Perturbator = NEGB
 Exploration Boolean Negation
-143 perturbation point.
+5 perturbation point.
 NEGB : negation of boolean value.
 20 list of 100 number
 Random numbers generated with 23 as seed
