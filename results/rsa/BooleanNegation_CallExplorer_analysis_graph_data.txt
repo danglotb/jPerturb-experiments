@@ -1,0 +1,26 @@
+contains the data for build a graph for analysis.
+Exploration Boolean Negation
+19 perturbation point.
+NEGB : negation of boolean value.
+20 string of 64 bytes
+Generated with 23 as seed
+Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturtions   %Success                   
+NEGB        1          60         0          20         320        80             --------------- 75,00      
+NEGB        15         20         0          0          20         20             -------------------- 100,00
+NEGB        28         20         20         0          80         40             ---------- 50,00           
+NEGB        32         13         0          7          20         20             ------------- 65,00        
+NEGB        35         5          0          3          3          3              ------------- 62,50        
+NEGB        36         0          15         5          20         20              0,00                      
+NEGB        45         13         0          0          12         12             -------------------- 100,00
+NEGB        55         0          20         0          20         20              0,00                      
+NEGB        66         0          0          40         60         40              0,00                      
+NEGB        71         20         0          20         80         40             ---------- 50,00           
+NEGB        72         0          0          0          0          0              NaN                        
+NEGB        73         0          0          40         60         40              0,00                      
+NEGB        76         40         0          0          80         40             -------------------- 100,00
+NEGB        79         40         0          0          80         40             -------------------- 100,00
+NEGB        80         40         0          0          80         40             -------------------- 100,00
+NEGB        88         0          0          40         60         40              0,00                      
+NEGB        89         20         0          20         80         40             ---------- 50,00           
+NEGB        90         0          0          40         60         40              0,00                      
+NEGB        91         20         20         0          80         40             ---------- 50,00           
