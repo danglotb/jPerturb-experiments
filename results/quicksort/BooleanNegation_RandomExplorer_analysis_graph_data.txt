@@ -1,0 +1,26 @@
+contains the data for the random rates analysis graph with Perturbator as perturbator.
+Exploration Boolean Negation
+11 perturbation point.
+NEGB : negation of boolean value.
+random rate : 0.001 0.01 0.05 0.1 0.5 0.9 
+20 arrays of 100 integers
+Random integer generated with 23 as seed
+RandomRate Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturbation  %Success                   
+0.001      NEGB        0          90         3          7          19347      20             ------------------ 90,00   
+0.01       NEGB        0          18         15         67         12228      130            ---- 18,00                 
+0.05       NEGB        0          1          12         87         4314       210            - 1,00                     
+0.1        NEGB        0          0          17         83         2494       254             0,00                      
+0.5        NEGB        0          0          79         21         392        199             0,00                      
+0.9        NEGB        0          0          100        0          118        109             0,00                      
+0.001      NEGB        6          57         43         0          73989      74             ------------ 57,00         
+0.01       NEGB        6          0          100        0          72401      735             0,00                      
+0.05       NEGB        6          0          100        0          65743      3275            0,00                      
+0.1        NEGB        6          0          100        0          58987      5894            0,00                      
+0.5        NEGB        6          0          100        0          32494      16313           0,00                      
+0.9        NEGB        6          0          100        0          64274      57921           0,00                      
+0.001      NEGB        11         76         24         0          40607      42             ---------------- 76,00     
+0.01       NEGB        11         5          95         0          40130      416            - 5,00                     
+0.05       NEGB        11         0          100        0          37979      1907            0,00                      
+0.1        NEGB        11         0          100        0          35598      3532            0,00                      
+0.5        NEGB        11         0          100        0          19818      9925            0,00                      
+0.9        NEGB        11         0          100        0          16648      14978           0,00                      

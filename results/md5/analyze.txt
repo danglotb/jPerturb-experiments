@@ -1,3 +1,10 @@
+__L24 : ("MD5.java:34", 24, "Numerical");
+        paddingBytes[paddingBytes.length - (PerturbationEngine.pint(__L24, 8)) + i] = (byte)messageLenBits;
+
+ for +1 and +2 (9 and 10), 50% of success.
+
+ 8 + (5 or 10) = 13 , 18 -> +20% of success, but + (25+) drop it to 0%
+
 __L34 : ("MD5.java:42", "Numerical");
         int[] buffer = new int[PerturbationEngine.pint(__L34, 16)];
 Size of the buffer doesn't impact the success of the algorithm.

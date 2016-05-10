@@ -1,0 +1,17 @@
+contains the data for build a graph for analysis.
+Exploration Boolean Negation
+164 perturbation point.
+NEGB : negation of boolean value.
+20 string of 100 char
+Random char generated with 23 as seed
+Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturtions   %Success                   
+NEGB        22         120        40         20         900        180            -------------- 66,67       
+NEGB        38         0          60         20         200        80              0,00                      
+NEGB        45         0          3840       60         631800     3900            0,00                      
+NEGB        51         0          0          3840       370560     3840            0,00                      
+NEGB        75         0          3840       60         631800     3900            0,00                      
+NEGB        151        0          80         20         300        100             0,00                      
+NEGB        154        0          80         0          320        80              0,00                      
+NEGB        158        0          60         0          180        60              0,00                      
+NEGB        162        0          40         0          80         40              0,00                      
+NEGB        171        0          320        80         7200       400             0,00                      

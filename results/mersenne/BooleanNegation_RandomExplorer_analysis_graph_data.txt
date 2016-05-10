@@ -1,0 +1,38 @@
+contains the data for the random rates analysis graph with Perturbator as perturbator.
+Exploration Boolean Negation
+143 perturbation point.
+NEGB : negation of boolean value.
+random rate : 0.001 0.01 0.05 0.1 0.5 0.9 
+20 list of 100 number
+Random numbers generated with 23 as seed
+RandomRate Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturbation  %Success                   
+0.001      NEGB        8          91         9          0          10000      11             ------------------- 91,00  
+0.01       NEGB        8          36         63         1          9901       101            -------- 36,00             
+0.05       NEGB        8          1          98         1          9901       472            - 1,00                     
+0.1        NEGB        8          0          90         10         9010       920             0,00                      
+0.5        NEGB        8          0          52         48         5248       2638            0,00                      
+0.9        NEGB        8          0          9          91         991        890             0,00                      
+0.001      NEGB        13         100        0          0          100        0              NaN                        
+0.01       NEGB        13         99         1          0          100        1              -------------------- 99,00 
+0.05       NEGB        13         94         6          0          100        6              ------------------- 94,00  
+0.1        NEGB        13         86         14         0          100        14             ------------------ 86,00   
+0.5        NEGB        13         49         51         0          100        51             ---------- 49,00           
+0.9        NEGB        13         7          93         0          100        93             -- 7,00                    
+0.001      NEGB        20         79         0          21         20415      21             ---------------- 79,00     
+0.01       NEGB        20         10         0          90         8801       90             -- 10,00                   
+0.05       NEGB        20         0          0          100        2175       100             0,00                      
+0.1        NEGB        20         0          0          100        859        100             0,00                      
+0.5        NEGB        20         0          0          100        198        100             0,00                      
+0.9        NEGB        20         0          0          100        107        100             0,00                      
+0.001      NEGB        50         100        0          0          31525      35             -------------------- 100,00
+0.01       NEGB        50         100        0          0          9279       96             -------------------- 100,00
+0.05       NEGB        50         100        0          0          2175       100            -------------------- 100,00
+0.1        NEGB        50         100        0          0          859        100            -------------------- 100,00
+0.5        NEGB        50         100        0          0          198        100            -------------------- 100,00
+0.9        NEGB        50         100        0          0          107        100            -------------------- 100,00
+0.001      NEGB        129        100        0          0          0          0              NaN                        
+0.01       NEGB        129        100        0          0          0          0              NaN                        
+0.05       NEGB        129        100        0          0          0          0              NaN                        
+0.1        NEGB        129        100        0          0          0          0              NaN                        
+0.5        NEGB        129        100        0          0          0          0              NaN                        
+0.9        NEGB        129        100        0          0          0          0              NaN                        
