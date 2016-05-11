@@ -1,6 +1,6 @@
 detail of space for CallExplorer with Perturbator = 1
-number of Task :               10                            
+number of Task :               1                             
 number of Locations :          130                           
-number of executions done :    49830                         
-number of successful executions done :  39054                         
-% Success :                    ---------------- 78,37        
+number of executions done :    4983                          
+number of successful executions done :  4067                          
+% Success :                    ----------------- 81,62       

@@ -3,7 +3,7 @@ Exploration Plus One
 111 perturbation point
 PONE : plus one perturbator
 20 linear problems to be resolved
-linear problem come from test of commons.math lib
+linear problem are generated randomly
 Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturtions   %Success                   
 1           0          1062       0          0          64450      1062           -------------------- 100,00
 1           1          1836       0          0          196078     1836           -------------------- 100,00

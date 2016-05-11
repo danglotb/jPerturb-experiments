@@ -1,6 +1,7 @@
-__L61 : ("RSACoreEngine.java:152", 61, "Numerical")
-    byte[]  tmp = new byte[output.length - 1];
-    System.arraycopy(output, 1 , tmp,  0, PerturbationEngine.pint(__L61, tmp.length));
+__L67 : ("RSACoreEngine.java:94", 67, "Numerical")
+    else if ((PerturbationEngine.pint(__L67, inLen) == (getInputBlockSize() + 1) && !forEncryption)
+         throw new DataLengthException("input too large for RSA cipher.");
 
-tmp.length + 1 == output.length
-=> 
+    In case of +1 perturbation, the condition "inLen == (getInputBlockSize() + 1)" is true, and throw an exception.
+For the other magnitude, the condition is false.
+
