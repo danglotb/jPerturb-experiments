@@ -1,0 +1,44 @@
+aggregate data per location for Perturbator = NEGB
+Exploration Boolean Negation
+37 perturbation point.
+NEGB : negation of boolean value.
+7 datasets
+Picked up in the data set provided by Weka.
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #ExecsRef  AvgCallRefPerTask #Tasks     %Success                   
+1          0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+2          70         0          0          700                10,00              70             1,00                     70         70         10.0              7          -------------------- 100,00
+3          0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+31         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+32         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+51         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+52         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+53         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+54         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+55         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+58         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+75         7          0          0          7                  1,00               7              1,00                     7          7          1.0               7          -------------------- 100,00
+76         0          0          7          7                  1,00               7              1,00                     7          7          1.0               7           0,00                      
+82         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+83         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+84         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+86         70         0          0          700                10,00              70             1,00                     70         70         10.0              7          -------------------- 100,00
+87         0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+88         8          62         0          700                10,00              70             1,00                     70         70         10.0              7          --- 11,43                  
+90         4          66         0          700                10,00              70             1,00                     70         70         10.0              7          -- 5,71                    
+95         194        576        0          80850              105,00             770            1,00                     770        770        110.0             7          ------ 25,19               
+107        316        384        0          70000              100,00             700            1,00                     700        700        100.0             7          ---------- 45,14           
+119        700        0          0          70000              100,00             700            1,00                     700        700        100.0             7          -------------------- 100,00
+124        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+128        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+140        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+143        7          0          0          7                  1,00               7              1,00                     7          7          1.0               7          -------------------- 100,00
+144        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+145        0          0          7          7                  1,00               7              1,00                     7          7          1.0               7           0,00                      
+146        0          0          7          7                  1,00               7              1,00                     7          7          1.0               7           0,00                      
+147        7          0          0          7                  1,00               7              1,00                     7          7          1.0               7          -------------------- 100,00
+150        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+154        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+158        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+164        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+165        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
+166        0          0          0          0                  NaN                0              NaN                      0          0          0.0               7          NaN                        
