@@ -1,0 +1,41 @@
+aggregate data per location for Perturbator = NEGB
+Exploration Boolean Negation
+34 perturbation point.
+NEGB : negation of boolean value.
+1 files of 100 chararacters
+Random characters generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #ExecsRef  AvgCallRefPerTask #Tasks     %Success                   
+3          153        0          51         27579              135,19             184            0,90                     204        204        204.0             1          --------------- 75,00      
+6          171        0          36         32175              155,43             203            0,98                     207        207        207.0             1          ----------------- 82,61    
+9          156        0          51         28973              139,97             199            0,96                     207        207        207.0             1          ---------------- 75,36     
+10         105        0          51         19627              125,81             158            1,01                     156        156        156.0             1          -------------- 67,31       
+13         60         0          15         3976               53,01              73             0,97                     75         75         75.0              1          ---------------- 80,00     
+16         12         0          6          219                12,17              18             1,00                     18         18         18.0              1          -------------- 66,67       
+19         9          0          6          174                11,60              15             1,00                     15         15         15.0              1          ------------ 60,00         
+26         96         0          36         11671              88,42              129            0,98                     132        132        132.0             1          --------------- 72,73      
+29         96         0          36         11590              87,80              125            0,95                     132        132        132.0             1          --------------- 72,73      
+30         96         0          36         11800              89,39              130            0,98                     132        132        132.0             1          --------------- 72,73      
+38         172        0          18         29844              157,07             170            0,89                     190        190        190.0             1          ------------------- 90,53  
+41         120        0          54         20798              119,53             171            0,98                     174        174        174.0             1          -------------- 68,97       
+42         136        0          54         23490              123,63             187            0,98                     190        190        190.0             1          --------------- 71,58      
+54         31         0          97         4349               33,98              69             0,54                     128        128        128.0             1          ----- 24,22                
+59         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+64         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+70         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+75         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+81         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+86         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+90         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+95         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+99         0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+104        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+107        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+108        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+117        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+120        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+121        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+130        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+135        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+141        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+147        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        
+155        0          0          0          0                  NaN                0              NaN                      0          0          0.0               1          NaN                        

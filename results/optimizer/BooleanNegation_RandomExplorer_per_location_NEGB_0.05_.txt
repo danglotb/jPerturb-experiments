@@ -4,7 +4,7 @@ Exploration Boolean Negation
 NEGB : negation of boolean value.
 20 linear problems to be resolved
 linear problem are generated randomly
-IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
 3          100        0          0          9258               92,58              440            4,40                     100        20         -------------------- 100,00
 12         100        0          0          9313               93,13              444            4,44                     100        20         -------------------- 100,00
 13         100        0          0          5336               53,36              257            2,57                     100        20         -------------------- 100,00

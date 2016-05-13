@@ -5,6 +5,6 @@ NEGB : negation of boolean value.
 20 arrays of 100 integers
 Random integer generated with 23 as seed
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
-0          90         3          7          19347              193,47             20             0,20                     100        20         ------------------ 90,00   
-6          57         43         0          73989              739,89             74             0,74                     100        20         ------------ 57,00         
-11         76         24         0          40607              406,07             42             0,42                     100        20         ---------------- 76,00     
+0          90         3          7          19347              967,35             20             1,00                     20         20         ------------------ 90,00   
+6          57         43         0          73989              3699,45            74             3,70                     20         20         ------------ 57,00         
+11         76         24         0          40607              2030,35            42             2,10                     20         20         ---------------- 76,00     

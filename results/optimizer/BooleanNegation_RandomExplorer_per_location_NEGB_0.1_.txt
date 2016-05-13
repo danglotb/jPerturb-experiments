@@ -4,13 +4,13 @@ Exploration Boolean Negation
 NEGB : negation of boolean value.
 20 linear problems to be resolved
 linear problem are generated randomly
-IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
 3          100        0          0          9039               90,39              924            9,24                     100        20         -------------------- 100,00
 12         100        0          0          9518               95,18              968            9,68                     100        20         -------------------- 100,00
 13         100        0          0          5452               54,52              557            5,57                     100        20         -------------------- 100,00
 14         100        0          0          0                  0,00               0              0,00                     100        20         NaN                        
 21         0          0          100        859                8,59               100            1,00                     100        20          0,00                      
-27         78         0          22         10550580           105505,80          1054576        10545,76                 100        20         ---------------- 78,00     
+27         75         0          25         8493106            84931,06           853024         8530,24                  100        20         --------------- 75,00      
 30         100        0          0          5452               54,52              557            5,57                     100        20         -------------------- 100,00
 32         100        0          0          5452               54,52              557            5,57                     100        20         -------------------- 100,00
 33         100        0          0          5452               54,52              557            5,57                     100        20         -------------------- 100,00
