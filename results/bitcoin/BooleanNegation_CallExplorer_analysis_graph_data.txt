@@ -1,42 +1,17 @@
 contains the data for build a graph for analysis.
 Exploration Boolean Negation
-35 perturbation point.
+81 perturbation point.
 NEGB : negation of boolean value.
 5 random tx between 3 bitcoin nodes
 Random integer generated with 23 as seed
 Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturtions   %Success                   
-NEGB        2287       210        649        2          663778     448            ----- 24,39                
-NEGB        2288       414        3538       0          452149     431            --- 10,48                  
-NEGB        2291       0          0          0          0          0              NaN                        
-NEGB        2292       0          0          0          0          0              NaN                        
-NEGB        2293       0          0          0          0          0              NaN                        
-NEGB        2294       0          0          0          0          0              NaN                        
-NEGB        2297       0          11         0          10         1               0,00                      
-NEGB        2301       0          0          0          0          0              NaN                        
-NEGB        2302       0          0          0          0          0              NaN                        
-NEGB        2307       0          1          0          1          1               0,00                      
-NEGB        2317       0          11         0          101        6               0,00                      
-NEGB        2323       0          28         5          76533      19              0,00                      
-NEGB        2326       0          0          0          0          0              NaN                        
-NEGB        2329       0          0          0          0          0              NaN                        
-NEGB        2330       0          0          0          0          0              NaN                        
-NEGB        2337       77         101        0          14351      124            --------- 43,26            
-NEGB        2343       118        89         0          13718      134            ------------ 57,00         
-NEGB        2348       0          0          0          0          0              NaN                        
+NEGB        6715       496        2766       0          1953802    507            ---- 15,21                 
+NEGB        1604       251        551        3          591502     254            ------- 31,18              
+NEGB        2287       380        3280       1          649145     766            --- 10,38                  
+NEGB        2288       250        3774       0          534545     690            -- 6,21                    
+NEGB        2337       0          196        0          6565       112             0,00                      
+NEGB        2343       0          215        0          9148       149             0,00                      
 NEGB        2371       14         4          0          200        18             ---------------- 77,78     
-NEGB        2374       13         4          1          181        18             --------------- 72,22      
-NEGB        2379       14         4          0          200        18             ---------------- 77,78     
-NEGB        2382       11         0          0          121        11             -------------------- 100,00
-NEGB        2390       1          20         19         9629       22             - 2,50                     
-NEGB        2393       0          0          0          0          0              NaN                        
-NEGB        2394       0          2          8          6059       10              0,00                      
-NEGB        2397       0          0          0          0          0              NaN                        
-NEGB        2398       467        10636      0          4206667    521            - 4,21                     
-NEGB        2399       0          0          0          0          0              NaN                        
-NEGB        2400       9          670        16         859221     134            - 1,29                     
-NEGB        2401       0          0          0          0          0              NaN                        
-NEGB        2402       0          0          0          0          0              NaN                        
-NEGB        2403       0          0          0          0          0              NaN                        
-NEGB        2412       0          0          0          0          0              NaN                        
-NEGB        2415       44         1338       0          81179      158            - 3,18                     
-NEGB        2416       0          158        0          3061       42              0,00                      
+NEGB        2374       6          11         1          99         11             ------- 33,33              
+NEGB        2379       0          5          0          5          5               0,00                      
+NEGB        2382       0          0          0          0          0              NaN                        

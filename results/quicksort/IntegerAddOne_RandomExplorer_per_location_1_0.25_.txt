@@ -1,0 +1,18 @@
+aggregate data per location for random rate = 0.25 and with Perturbator = 1
+Exploration Plus One
+11 perturbation point
+PONE : plus one perturbator
+20 arrays of 100 integers
+Random integer generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+1          0          0          100        1725               17,25              426            4,26                     100        20          0,00                      
+2          100        0          0          13351              133,51             3351           33,51                    100        20         -------------------- 100,00
+3          100        0          0          87293              872,93             21806          218,06                   100        20         -------------------- 100,00
+4          0          100        0          43903              439,03             10975          109,75                   100        20          0,00                      
+5          100        0          0          87293              872,93             21806          218,06                   100        20         -------------------- 100,00
+7          0          100        0          33480              334,80             8346           83,46                    100        20          0,00                      
+8          100        0          0          40690              406,90             10152          101,52                   100        20         -------------------- 100,00
+9          100        0          0          54549              545,49             13577          135,77                   100        20         -------------------- 100,00
+10         0          100        0          24758              247,58             6190           61,90                    100        20          0,00                      
+12         0          100        0          30690              306,90             7658           76,58                    100        20          0,00                      
+13         0          100        0          10000              100,00             2545           25,45                    100        20          0,00                      
