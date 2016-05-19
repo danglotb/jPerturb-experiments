@@ -6,12 +6,12 @@ NEGB : negation of boolean value.
 Generated with 23 as seed
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
 1          495        5          0          2000               20,00              1              0,01                     100        100        -------------------- 99,00 
-15         495        5          0          503                5,03               0              0,00                     100        100        NaN                        
+15         495        5          0          501                5,01               0              0,00                     100        100        NaN                        
 28         495        5          0          1000               10,00              0              0,00                     100        100        NaN                        
 32         495        5          0          500                5,00               0              0,00                     100        100        NaN                        
-35         495        5          0          153                1,53               0              0,00                     100        100        NaN                        
+35         495        5          0          150                1,50               0              0,00                     100        100        NaN                        
 36         495        5          0          500                5,00               0              0,00                     100        100        NaN                        
-45         495        5          0          360                3,60               0              0,00                     100        100        NaN                        
+45         495        5          0          340                3,40               0              0,00                     100        100        NaN                        
 55         495        5          0          500                5,00               0              0,00                     100        100        NaN                        
 66         495        5          0          1000               10,00              0              0,00                     100        100        NaN                        
 71         495        5          0          1000               10,00              0              0,00                     100        100        NaN                        
