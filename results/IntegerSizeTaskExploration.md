@@ -3,7 +3,7 @@
 ![mersenne-size](mersenne/img/sizeexplorer_plot.jpeg)
 ![md5-size](md5/img/sizeexplorer_plot.jpeg)
 ![rsa-size](rsa/img/sizeexplorer_plot.jpeg)
-![optimizer-size](optimizer/img/sizeexplorer_plot.jpeg)
+![simplex-size](simplex/img/sizeexplorer_plot.jpeg)
 ![classifier-size](classifier/img/sizeexplorer_plot.jpeg)
 ![sudoku-size](sudoku/img/sizeexplorer_plot.jpeg)
 ![bitcoin-size](bitcoin/img/sizeexplorer_plot.jpeg)

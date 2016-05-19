@@ -3,7 +3,7 @@
 ![mersenne-IntegerMagnitudeSys_](mersenne/img/IntegerMagnitudeSys_plot.jpeg)
 ![md5-IntegerMagnitudeSys_](md5/img/IntegerMagnitudeSys_plot.jpeg)
 ![rsa-IntegerMagnitudeSys_](rsa/img/IntegerMagnitudeSys_plot.jpeg)
-![optimizer-IntegerMagnitudeSys_](optimizer/img/IntegerMagnitudeSys_plot.jpeg)
+![simplex-IntegerMagnitudeSys_](simplex/img/IntegerMagnitudeSys_plot.jpeg)
 ![classifier-IntegerMagnitudeSys_](classifier/img/IntegerMagnitudeSys_plot.jpeg)
 ![sudoku-IntegerMagnitudeSys_](sudoku/img/IntegerMagnitudeSys_plot.jpeg)
 ![bitcoin-IntegerMagnitudeSys_](bitcoin/img/IntegerMagnitudeSys_plot.jpeg)

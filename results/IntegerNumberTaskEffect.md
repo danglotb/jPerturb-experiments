@@ -3,7 +3,7 @@
 ![mersenne-number](mersenne/img/numberexplorer_plot.jpeg)
 ![md5-number](md5/img/numberexplorer_plot.jpeg)
 ![rsa-number](rsa/img/numberexplorer_plot.jpeg)
-![optimizer-number](optimizer/img/numberexplorer_plot.jpeg)
+![simplex-number](simplex/img/numberexplorer_plot.jpeg)
 ![classifier-number](classifier/img/numberexplorer_plot.jpeg)
 ![sudoku-number](sudoku/img/numberexplorer_plot.jpeg)
 ![bitcoin-number](bitcoin/img/numberexplorer_plot.jpeg)
