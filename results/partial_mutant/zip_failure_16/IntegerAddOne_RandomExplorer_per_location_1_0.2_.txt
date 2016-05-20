@@ -1,0 +1,25 @@
+aggregate data per location for random rate = 0.2 and with Perturbator = 1
+Exploration Plus One
+18 perturbation point
+PONE : plus one perturbator
+97 string of 100 char
+Random char generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+0          10         0          360        10                 0,03               0              0,00                     370        37         NaN                        
+1          10         0          360        10                 0,03               0              0,00                     370        37         NaN                        
+2          7          0          363        2567               6,94               500            1,35                     370        37         - 1,89                     
+3          10         0          360        2572               6,95               501            1,35                     370        37         - 2,70                     
+5          0          0          370        2560               6,92               499            1,35                     370        37          0,00                      
+6          10         0          360        10                 0,03               0              0,00                     370        37         NaN                        
+7          10         0          360        980                2,65               212            0,57                     370        37         - 2,70                     
+9          0          10         360        980                2,65               212            0,57                     370        37          0,00                      
+10         10         0          360        0                  0,00               0              0,00                     370        37         NaN                        
+11         10         0          360        0                  0,00               0              0,00                     370        37         NaN                        
+13         10         0          360        0                  0,00               0              0,00                     370        37         NaN                        
+14         0          0          370        48                 0,13               10             0,03                     370        37          0,00                      
+15         9          1          360        370                1,00               82             0,22                     370        37         - 2,43                     
+17         9          0          361        94652              255,82             18876          51,02                    370        37         - 2,43                     
+18         10         0          360        94792              256,19             18903          51,09                    370        37         - 2,70                     
+20         0          10         360        94350              255,00             18824          50,88                    370        37          0,00                      
+22         0          10         360        18530              50,08              3676           9,94                     370        37          0,00                      
+24         10         0          360        10                 0,03               0              0,00                     370        37         NaN                        

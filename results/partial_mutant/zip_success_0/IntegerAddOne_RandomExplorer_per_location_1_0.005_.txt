@@ -1,0 +1,25 @@
+aggregate data per location for random rate = 0.005 and with Perturbator = 1
+Exploration Plus One
+18 perturbation point
+PONE : plus one perturbator
+100 string of 100 char
+Random char generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+1          0          30         940        30                 0,03               0              0,00                     970        97         NaN                        
+2          0          28         942        7708               7,95               34             0,04                     970        97          0,00                      
+3          0          30         940        7710               7,95               34             0,04                     970        97          0,00                      
+5          0          21         949        7680               7,92               34             0,04                     970        97          0,00                      
+6          0          30         940        30                 0,03               0              0,00                     970        97         NaN                        
+7          0          28         942        2861               2,95               14             0,01                     970        97          0,00                      
+9          1          27         942        2861               2,95               14             0,01                     970        97         - 0,10                     
+10         0          30         940        0                  0,00               0              0,00                     970        97         NaN                        
+11         0          30         940        0                  0,00               0              0,00                     970        97         NaN                        
+13         0          30         940        0                  0,00               0              0,00                     970        97         NaN                        
+14         0          19         951        2273               2,34               11             0,01                     970        97          0,00                      
+15         0          30         940        30                 0,03               0              0,00                     970        97         NaN                        
+16         0          30         940        30                 0,03               0              0,00                     970        97         NaN                        
+17         0          28         942        7708               7,95               34             0,04                     970        97          0,00                      
+18         0          30         940        7710               7,95               34             0,04                     970        97          0,00                      
+20         0          30         940        7680               7,92               34             0,04                     970        97          0,00                      
+22         0          30         940        2940               3,03               14             0,01                     970        97          0,00                      
+24         0          30         940        30                 0,03               0              0,00                     970        97         NaN                        

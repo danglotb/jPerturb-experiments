@@ -1,0 +1,25 @@
+aggregate data per location for random rate = 0.005 and with Perturbator = 1
+Exploration Plus One
+18 perturbation point
+PONE : plus one perturbator
+97 string of 100 char
+Random char generated with 23 as seed
+IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
+0          10         0          620        10                 0,02               0              0,00                     630        63         NaN                        
+1          10         0          620        10                 0,02               0              0,00                     630        63         NaN                        
+2          10         0          620        2570               4,08               12             0,02                     630        63         - 1,59                     
+3          10         0          620        2570               4,08               12             0,02                     630        63         - 1,59                     
+5          6          0          624        2560               4,06               12             0,02                     630        63         - 0,95                     
+6          10         0          620        10                 0,02               0              0,00                     630        63         NaN                        
+7          10         0          620        980                1,56               2              0,00                     630        63         - 1,59                     
+9          8          2          620        980                1,56               2              0,00                     630        63         - 1,27                     
+10         10         0          620        0                  0,00               0              0,00                     630        63         NaN                        
+11         10         0          620        0                  0,00               0              0,00                     630        63         NaN                        
+13         10         0          620        0                  0,00               0              0,00                     630        63         NaN                        
+14         8          0          622        938                1,49               2              0,00                     630        63         - 1,27                     
+15         10         0          620        210                0,33               1              0,00                     630        63         - 1,59                     
+17         10         0          620        53760              85,33              262            0,42                     630        63         - 1,59                     
+18         10         0          620        53760              85,33              262            0,42                     630        63         - 1,59                     
+20         9          1          620        53550              85,00              260            0,41                     630        63         - 1,43                     
+22         5          5          620        11460              18,19              53             0,08                     630        63         - 0,79                     
+24         10         0          620        10                 0,02               0              0,00                     630        63         NaN                        
