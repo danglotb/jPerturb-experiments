@@ -1,9 +1,9 @@
 aggregate data per location for random rate = 0.1 and with Perturbator = 1
 Exploration Plus One
-143 perturbation point
 PONE : plus one perturbator
 20 list of 100 number
 Random numbers generated with 23 as seed
+143 perturbation points
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
 0          100        0          0          100                1,00               14             0,14                     100        20         -------------------- 100,00
 1          100        0          0          100                1,00               14             0,14                     100        20         -------------------- 100,00

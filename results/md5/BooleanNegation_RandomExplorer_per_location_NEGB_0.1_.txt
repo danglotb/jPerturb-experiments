@@ -1,9 +1,9 @@
 aggregate data per location for random rate = 0.1 and with Perturbator = NEGB
 Exploration Boolean Negation
-10 perturbation point.
 NEGB : negation of boolean value.
 20 string of 100 char
 Random char generated with 23 as seed
+10 perturbation points
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
 22         81         15         4          580                5,80               64             0,64                     100        20         ----------------- 81,00    
 38         60         30         10         330                3,30               40             0,40                     100        20         ------------ 60,00         

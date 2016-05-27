@@ -1,17 +1,17 @@
 contains the data for build a graph for analysis.
 Exploration Boolean Negation
-81 perturbation point.
 NEGB : negation of boolean value.
 5 random tx between 3 bitcoin nodes
 Random integer generated with 23 as seed
+10 perturbations points
 Perturbator IndexLoc   #Success   #Failure   #Exception #Call      #Perturtions   %Success                   
-NEGB        6715       496        2766       0          1953802    507            ---- 15,21                 
-NEGB        1604       251        551        3          591502     254            ------- 31,18              
-NEGB        2287       380        3280       1          649145     766            --- 10,38                  
-NEGB        2288       250        3774       0          534545     690            -- 6,21                    
-NEGB        2337       0          196        0          6565       112             0,00                      
-NEGB        2343       0          215        0          9148       149             0,00                      
-NEGB        2371       14         4          0          200        18             ---------------- 77,78     
-NEGB        2374       6          11         1          99         11             ------- 33,33              
-NEGB        2379       0          5          0          5          5               0,00                      
-NEGB        2382       0          0          0          0          0              NaN                        
+NEGB        6715       8593       95         0          24021220   8677           -------------------- 98,91 
+NEGB        1604       6592       86         24         9594900    5518           -------------------- 98,36 
+NEGB        2287       767        33         10         576003     366            ------------------- 94,69  
+NEGB        2288       437        11         0          185950     338            -------------------- 97,54 
+NEGB        2337       152        11         0          22132      102            ------------------- 93,25  
+NEGB        2343       98         1          0          3767       97             -------------------- 98,99 
+NEGB        2371       66         4          0          980        70             ------------------- 94,29  
+NEGB        2374       65         0          5          885        70             ------------------- 92,86  
+NEGB        2379       70         0          0          980        70             -------------------- 100,00
+NEGB        2382       51         4          0          605        55             ------------------- 92,73  
