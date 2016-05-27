@@ -1,2 +1,0 @@
-list ids of exception fragile code : >70.0% of exceptions.
-1 2 3 5 6 7 9 10 11 13 14 15 16 17 18 20 22 24 

@@ -1,0 +1,13 @@
+Contains data to explore the size of task required for saturation
+Task Size Exploration (TSE)
+Task Size : 5 10 20 50 100 
+201 perturbation point
+N Execution Enactor
+PONE : Numerical Perturbator
+One task of different size
+Seed used for generate task is 23
+Size       IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #CallRef   %Success                   
+5          83         123        0          0          2478               20,15              123            1,00                     0          123        -------------------- 100,00
+10         83         540        0          0          27566              51,05              540            1,00                     0          540        -------------------- 100,00
+20         83         1202       0          0          151419             125,97             1202           1,00                     0          1202       -------------------- 100,00
+50         83         2989       10         6          1106898            368,35             3005           1,00                     0          3005       -------------------- 99,47 

@@ -1,2 +1,0 @@
-list ids of oracle fragile code : >70.0% of oracle failures
-1 2 3 6 7 9 10 11 13 15 16 17 18 20 22 24 
