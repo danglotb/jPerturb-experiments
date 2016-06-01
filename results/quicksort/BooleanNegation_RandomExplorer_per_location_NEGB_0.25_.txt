@@ -1,13 +1,13 @@
 aggregate data per location for random rate = 0.25 and with Perturbator = NEGB
 Exploration Boolean Negation
 NEGB : negation of boolean value.
-25 arrays of 100 integers
+20 arrays of 100 integers
 Random integer generated with 23 as seed
 6 perturbations points
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
-12         125        0          0          17334826           138678,61          4333024        34664,19                 125        25         -------------------- 100,00
-16         0          113        12         49323              394,58             12329          98,63                    125        25          0,00                      
-21         0          113        12         45541              364,33             11372          90,98                    125        25          0,00                      
-25         17         108        0          38378              307,02             9576           76,61                    125        25         --- 13,60                  
-32         1          124        0          5098               40,78              1283           10,26                    125        25         - 0,80                     
-37         3          116        6          5992               47,94              1492           11,94                    125        25         - 2,40                     
+12         100        0          0          12982187           129821,87          3245506        32455,06                 100        20         -------------------- 100,00
+16         0          94         6          39942              399,42             9966           99,66                    100        20          0,00                      
+21         0          91         9          36282              362,82             9010           90,10                    100        20          0,00                      
+25         14         86         0          30771              307,71             7673           76,73                    100        20         --- 14,00                  
+32         1          99         0          4226               42,26              1058           10,58                    100        20         - 1,00                     
+37         1          94         5          4814               48,14              1208           12,08                    100        20         - 1,00                     

@@ -1,13 +1,13 @@
 aggregate data per location for random rate = 0.15 and with Perturbator = NEGB
 Exploration Boolean Negation
 NEGB : negation of boolean value.
-25 arrays of 100 integers
+20 arrays of 100 integers
 Random integer generated with 23 as seed
 6 perturbations points
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
-12         125        0          0          954643             7637,14            143274         1146,19                  125        25         -------------------- 100,00
-16         0          121        4          47667              381,34             7154           57,23                    125        25          0,00                      
-21         0          123        2          47664              381,31             7154           57,23                    125        25          0,00                      
-25         44         81         0          34609              276,87             5170           41,36                    125        25         -------- 35,20             
-32         13         112        0          6620               52,96              1024           8,19                     125        25         --- 10,40                  
-37         16         107        2          6920               55,36              1063           8,50                     125        25         --- 12,80                  
+12         100        0          0          748836             7488,36            112361         1123,61                  100        20         -------------------- 100,00
+16         0          96         4          38359              383,59             5748           57,48                    100        20          0,00                      
+21         0          99         1          37862              378,62             5682           56,82                    100        20          0,00                      
+25         35         65         0          27803              278,03             4216           42,16                    100        20         ------- 35,00              
+32         11         89         0          5326               53,26              828            8,28                     100        20         --- 11,00                  
+37         12         86         2          5636               56,36              865            8,65                     100        20         --- 12,00                  

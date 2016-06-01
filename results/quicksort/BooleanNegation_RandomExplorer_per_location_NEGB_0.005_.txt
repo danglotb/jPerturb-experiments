@@ -1,13 +1,13 @@
 aggregate data per location for random rate = 0.005 and with Perturbator = NEGB
 Exploration Boolean Negation
 NEGB : negation of boolean value.
-25 arrays of 100 integers
+20 arrays of 100 integers
 Random integer generated with 23 as seed
 6 perturbations points
 IndexLoc   #Success   #Failure   #Exception #CallAllExecs      AvgCallPerExec     #Perturbations AvgPerturbationPerExec   #Execs     #Tasks     %Success                   
-12         125        0          0          44885              359,08             221            1,77                     125        25         -------------------- 100,00
-16         49         76         0          45990              367,92             226            1,81                     125        25         -------- 39,20             
-21         57         68         0          45355              362,84             222            1,78                     125        25         ---------- 45,60           
-25         116        9          0          30150              241,20             158            1,26                     125        25         ------------------- 92,80  
-32         119        6          0          9433               75,46              44             0,35                     125        25         -------------------- 95,20 
-37         118        7          0          9441               75,53              44             0,35                     125        25         ------------------- 94,40  
+12         100        0          0          36007              360,07             182            1,82                     100        20         -------------------- 100,00
+16         40         60         0          36678              366,78             188            1,88                     100        20         -------- 40,00             
+21         41         59         0          35817              358,17             181            1,81                     100        20         --------- 41,00            
+25         94         6          0          24179              241,79             121            1,21                     100        20         ------------------- 94,00  
+32         96         4          0          7561               75,61              34             0,34                     100        20         -------------------- 96,00 
+37         95         5          0          7575               75,75              34             0,34                     100        20         ------------------- 95,00  

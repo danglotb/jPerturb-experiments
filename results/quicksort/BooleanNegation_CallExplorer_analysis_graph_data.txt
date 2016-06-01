@@ -1,13 +1,13 @@
 contains the data for build a graph for analysis.
 Exploration Boolean Negation
 NEGB : negation of boolean value.
-25 arrays of 225 integers
+20 arrays of 100 integers
 Random integer generated with 23 as seed
 6 perturbations points
 Perturbator IndexLoc   #Perturtions   #Success   #Failure   #Exception #Call          %Success                   
-NEGB        12         20478          20478      0          0          17896853       -------------------- 100,00
-NEGB        16         23639          12782      10857      0          22503779       ----------- 54,07          
-NEGB        23         23343          12860      10483      0          22162465       ------------ 55,09         
-NEGB        29         16298          15984      314        0          10641576       -------------------- 98,07 
-NEGB        40         4180           3706       474        0          688800         ------------------ 88,66   
-NEGB        45         4180           3680       500        0          689071         ------------------ 88,04   
+NEGB        12         5938           5932       0          6          1863691        -------------------- 99,90 
+NEGB        16         8459           1779       6663       17         3645056        ----- 21,03                
+NEGB        21         9495           1486       7991       18         4554350        ---- 15,65                 
+NEGB        25         4187           3616       571        0          879681         ------------------ 86,36   
+NEGB        32         1751           1087       664        0          149173         ------------- 62,08        
+NEGB        37         1751           1072       679        0          148507         ------------- 61,22        
