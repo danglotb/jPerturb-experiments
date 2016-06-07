@@ -1,14 +1,11 @@
 package experiment.explorer;
 
-import bitcoin.BitcoinManager;
-import com.google.common.annotations.VisibleForTesting;
 import experiment.*;
 import experiment.exploration.Exploration;
 import perturbation.enactor.NeverEnactorImpl;
 import perturbation.location.PerturbationLocation;
 import perturbation.perturbator.NothingPerturbatorImpl;
 import perturbation.perturbator.Perturbator;
-import torrent.TorrentManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,10 +51,6 @@ public abstract class ExplorerImpl implements Explorer {
                     result.set(0, 1); // success
                 else {
                     result.set(1, 1); // failures
-                    if (this.manager instanceof BitcoinManager) {
-                        System.err.println("Recover Wallet... error");
-                        ((BitcoinManager) this.manager).initWallets();
-                    }
                 }
                 return result;
             } catch (TimeoutException e) {
@@ -65,19 +58,11 @@ public abstract class ExplorerImpl implements Explorer {
                 result.set(2, 1); // error computation time
                 System.err.println("Time out!");
                 executor.shutdownNow();
-                if (this.manager instanceof BitcoinManager) {
-                    System.err.println("Recover Wallet... Timeout");
-                    ((BitcoinManager) this.manager).initWallets();
-                }
                 return result;
             }
         } catch (Exception | Error e) {
             result.set(2, 1);
             executor.shutdownNow();
-            if (this.manager instanceof BitcoinManager) {
-                System.err.println("Recover Wallet... " + e.getMessage());
-                ((BitcoinManager) this.manager).initWallets();
-            }
             return result;
         }
     }
@@ -94,7 +79,7 @@ public abstract class ExplorerImpl implements Explorer {
         @SuppressWarnings("unchecked")
         List<PerturbationLocation> locations = this.manager.getLocations(this.exploration.getType());
         for (PerturbationLocation location : locations) {
-                System.out.println(location.getLocationIndex() + " " + Util.getStringPerc(locations.indexOf(location), locations.size()));
+            System.out.println(location.getLocationIndex() + " " + Util.getStringPerc(locations.indexOf(location), locations.size()));
             this.runReference(indexTask, location);
             this.runLocation(indexTask, location);
         }
@@ -107,17 +92,8 @@ public abstract class ExplorerImpl implements Explorer {
 
         @SuppressWarnings("unchecked")
         List<Integer> indices = this.manager.getIndexTask();
-            for (Integer index : indices) {
-                this.runTask(index);
-            }
-        if (this.manager instanceof BitcoinManager) {
-            System.err.println("Stopping Bitcoin");
-            ((BitcoinManager) this.manager).stop();
-        }
-
-        if (this.manager instanceof TorrentManager) {
-            System.err.println("Stopping TorrentManager");
-            ((TorrentManager) this.manager).stop();
+        for (Integer index : indices) {
+            this.runTask(index);
         }
         log();
     }
