@@ -1,6 +1,6 @@
 package sudoku;
 
-import experiment.*;
+import experiment.CallableImpl;
 
 /**
  * Created by spirals on 08/04/16.
