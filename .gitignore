@@ -9,7 +9,6 @@ target/
 #Perturbation files needed
 jPerturb/
 spoon/
-src/main/java/perturbation/
 
 #Experiment files needed
 bitcoin-0.12.1/
