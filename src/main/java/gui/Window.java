@@ -282,10 +282,6 @@ public class Window extends JFrame implements Observer {
         }
     }
 
-    public static void main() {
-        launch(QuickSortManager.class);
-    }
-
     @Override
     public void update(Observable o, Object arg) {
         Tuple config = this.model.getConfig();
@@ -293,4 +289,9 @@ public class Window extends JFrame implements Observer {
         this.labelRobust.setText("("+config.get(1)+")");
         this.labelWeak.setText("("+config.get(2)+")");
     }
+
+    public static void main(String [] args) {
+        launch(QuickSortManager.class);
+    }
+
 }
