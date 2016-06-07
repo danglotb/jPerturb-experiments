@@ -1,14 +1,8 @@
 package quicksort;
 
 import experiment.CallableImpl;
-import experiment.Manager;
 import experiment.ManagerImpl;
 import experiment.Oracle;
-import experiment.exploration.IntegerExplorationPlusOne;
-import experiment.explorer.CallExplorer;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by spirals on 21/05/16.
