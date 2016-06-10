@@ -290,8 +290,4 @@ public class Window extends JFrame implements Observer {
         this.labelWeak.setText("("+config.get(2)+")");
     }
 
-    public static void main(String [] args) {
-        launch(QuickSortManager.class);
-    }
-
 }
