@@ -12,9 +12,6 @@ import perturbation.perturbator.AddNPerturbatorImpl;
 import perturbation.perturbator.InvPerturbatorImpl;
 import quicksort.QuickSortManager;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
@@ -155,66 +152,14 @@ public class Model extends Observable {
                 location.setPerturbator(new AddNPerturbatorImpl(1));
         }
 
-        this.antifragileLocation = new ArrayList<>();
-        this.robustLocation = new ArrayList<>();
-        this.weakLocation = new ArrayList<>();
-
-        this.readFile("results/" + this.manager.getName() + "/IntegerAddOne_RandomExplorer_analysis_graph_data.txt");
-        this.readFile("results/" + this.manager.getName() + "/BooleanNegation_RandomExplorer_analysis_graph_data.txt");
+        List<List<Integer>> lists = this.manager.getLists();
+        this.antifragileLocation = lists.get(0);
+        this.robustLocation = lists.get(1);
+        this.weakLocation = lists.get(2);
 
         System.out.println(this.antifragileLocation);
         System.out.println(this.robustLocation);
         System.out.println(this.weakLocation);
-    }
-
-    private void readFile(String path) {
-        try {
-
-            BufferedReader br = new BufferedReader(new FileReader(path));
-            br.readLine();
-            br.readLine();
-            br.readLine();//Trash unused lines
-            int nbRandomRate = (br.readLine().split(" ").length - 2);
-            br.readLine();
-            br.readLine();
-            br.readLine();//Trash unused lines
-            int nbLocation = Integer.parseInt(br.readLine().split(" ")[0]);
-            br.readLine();//Trash unused lines
-
-            for (int loc = 0; loc < nbLocation; loc++) {
-                boolean isAntifragile = true;
-                boolean added = false;
-                boolean used = false;
-                int indexLoc = -1;
-                for (int random = 0; random < nbRandomRate; random++) {
-                    String[] line = br.readLine().trim().replaceAll(" +", " ").split(" ");
-                    indexLoc = Integer.parseInt(line[2]);
-                    if (Integer.parseInt(line[6]) > 0) {
-                        if (Integer.parseInt(line[7]) > 0) {
-                            float success = Float.parseFloat(line[line.length - 1].replace(",", "."));
-                            used = true;
-                            if (success < 50.0) {
-                                if (!this.weakLocation.contains(indexLoc))
-                                    this.weakLocation.add(indexLoc);
-                                added = true;
-                            } else if (success < 100.0) {
-                                isAntifragile = false;
-                            }
-                        }
-                    }
-                }
-                if (used && !added) {
-                    if (isAntifragile)
-                        this.antifragileLocation.add(indexLoc);
-                    else
-                        this.robustLocation.add(indexLoc);
-                }
-            }
-
-            br.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     private void setUpLocations() {

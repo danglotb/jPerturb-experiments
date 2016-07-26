@@ -4,6 +4,9 @@ import experiment.CallableImpl;
 import experiment.ManagerImpl;
 import experiment.Oracle;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by spirals on 19/04/16.
  */
@@ -49,6 +52,14 @@ public class ZipManager extends ManagerImpl<String,String> {
         return super.indexTasks.size()+ " string of " + super.sizeOfTask + " char\n" +
                 "Random char generated with " + seedForGenTask + " as seed\n" +
                 super.locations.size() + " perturbation points\n";
+    }
+
+    @Override
+    public List<List<Integer>> getLists() {
+        List<Integer> antifragileIndex = Arrays.asList(3, 5, 8, 20, 22);
+        List<Integer> robustIndex = Arrays.asList(0, 1, 2, 7, 15, 17, 18, 19, 26, 29, 23);
+        List<Integer> weakIndex = Arrays.asList(6, 10, 16, 23, 25, 4, 8, 19, 21);
+        return Arrays.asList(antifragileIndex, robustIndex,weakIndex);
     }
 
     @Override

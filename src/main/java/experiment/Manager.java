@@ -59,4 +59,11 @@ public interface Manager<T, P> {
      */
     T getTask(int indexOfTask);
 
+
+	/**
+	 * This method should return a list of 3 list of the 3 different kind of Perturbation by indices.
+     * @return list [ listAntifragile , listRobust , listWeak ]
+     */
+    List<List<Integer>> getLists();
+
 }

@@ -104,4 +104,9 @@ public abstract class ManagerImpl<T, P> implements Manager<T, P> {
         this.locations = filteredList;
         return this.locations;
     }
+
+	@Override
+	public List<List<Integer>> getLists() {
+		return null;
+	}
 }
